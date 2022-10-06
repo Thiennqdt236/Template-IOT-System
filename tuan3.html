@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Bootstrap của Thiện</title>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+        <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+        <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    </head>
+
+    <body>
+        <div class="intro">
+            <h4> <img src="/kisspng-computer-icons-student-cap-students-5aca387401ae34.9929889115232021640069.png" alt="" width="30" height="30"> Nguyễn Quốc Thiện - B19DCDT236</h4>
+            <h1 class="text-success text-center">Template IOT System</h1>
+            <h6><center><i> Dữ liệu thu thập vào lúc ..giờ..phút, ngày .../.../2022 </i></center> </h6>
+            <br>
+        </div>
+
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-4 iot1 sunny-morning-gradient rounded-lg" style="border: rgb(42, 161, 165) ridge; height:200px">
+                    <h1 style="padding-top: 50px">
+                        Temperrature <br>
+                        <div class="randomnhiet" style="display: flex; padding-left: 160px;">
+                            <p id="demo1"></p>
+                            <script>
+                                document.getElementById("demo1").innerHTML = Math.floor(Math.random() * 101);
+                            </script>
+                            &degC
+                            <img src="/kisspng-thermometer-computer-icons-temperature-degree-cels-5b17609dcd0825.6274268915282587178398.png" alt="Temperature" width="50" height="50">
+                        </div>
+                    </h1>
+                </div>
+
+                <div class="col-4 iot2 tempting-azure-gradient rounded-lg" style="border: rgb(42, 161, 165) ridge; height:200px">
+                    <h1 style="padding-top: 50px">
+                        Humidity <br>
+                        <div class="randomam" style="display: flex; padding-left: 175px;">
+                            <p id="demo2"></p>
+                            <script>
+                                document.getElementById("demo2").innerHTML =  Math.floor(Math.random() * 101);
+                            </script>
+                            % 
+                            <img src="/kisspng-computer-icons-humidifier-icon-design-humidity-humid-5b1399cbeb6ea2.8193840515280112119643.png" alt="Humidity" width="50" height="50">
+                        </div>
+                    </h1>
+                </div>
+            
+                <div class="col-4 iot3 rare-wind-gradient rounded-lg" style="border: rgb(42, 161, 165) ridge; height:200px">
+                    <h1 style="padding-top: 50px">
+                        Light <br> 
+                        <div class="randomam" style="display: flex; padding-left: 175px;">
+                            <p id="demo3"></p>
+                            <script>
+                                document.getElementById("demo3").innerHTML = Math.floor(Math.random() * 101);
+                            </script>
+                            Lux 
+                            <img src="/1587616968_594_Cach-ve-mat-troi-Huong-dan-ve-thuc-su.png" alt="light" width="50" height="50">
+                        </div>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8 rounded-lg" style="border: rgb(42, 161, 165) ridge;">
+                    <img src="https://i0.wp.com/berkeleyearth.org/wp-content/uploads/2019/01/Prediction_2018.png" alt="bieu_do" width="980" height="400">
+                </div>
+                <div class="col-4 d-flex flex-column p-0">
+                    <div class="butt1 mean-fruit-gradient h-50 d-inline-block rounded-lg " style="border: rgb(42, 161, 165) ridge;">
+                        <div class="Led" style="padding-top: 50px;">
+                            <h3>Đèn</h3>
+                            <style>
+                                .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20rem; }
+                                .toggle.ios .toggle-handle { border-radius: 20rem; }
+                            </style>
+                            <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+                        </div> 
+                    </div>
+
+                    <div class="butt2 winter-neva-gradient h-50 d-inline-block rounded-lg " style="border: rgb(42, 161, 165) ridge;">
+                        <div class="Dieuhoa" style="padding-top: 50px;">
+                            <h3>Điều hòa</h3>
+                            <style>
+                                .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20rem; }
+                                .toggle.ios .toggle-handle { border-radius: 20rem; }
+                            </style>
+                            <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

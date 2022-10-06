@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iot1{
+    border-radius: 10px;
+    border: rgb(42, 161, 165) ridge;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    text-align: center;
+    padding-top: 30px;
+}
+.iot2{
+    border-radius: 10px;
+    border: rgb(42, 161, 165) ridge;
+    background-image: linear-gradient(to bottom right, rgb(2, 0, 128), rgb(0, 255, 255));
+    text-align: center;
+    padding-top: 30px;
+}
+.iot3{
+    border-radius: 10px;
+    border: rgb(42, 161, 165) ridge;
+    background-image: linear-gradient(to bottom right, gold, rgb(76, 185, 94));
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pict{
+    display:flex;
+    justify-content: space-evenly;
+}
+.col-8{
+    border-radius: 10px;
+    border: rgb(42, 161, 165) ridge;
+}
+.col-4{
+    border-radius: 10px;
+    border: rgb(42, 161, 165) ridge;
+}
+img{
+    border-radius: 10px;
+}
+.avt1:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(171, 38, 38, 0.35);
+    cursor: pointer;
+}
+.avt2:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(171, 38, 38, 0.35);
+    cursor: pointer;
+}.avt3:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(171, 38, 38, 0.35);
+    cursor: pointer;
+}.avt4:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(171, 38, 38, 0.35);
+    cursor: pointer;
+}
+.name{
+    padding-top: 10px;
+    text-align: center;
+}
